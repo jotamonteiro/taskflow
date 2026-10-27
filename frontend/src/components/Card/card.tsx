@@ -3,6 +3,7 @@ type CardProps = {
   name: string;
   imageUrl: string;
 };
+
 const Card = ({ _id, name, imageUrl }: CardProps) => {
   return (
     <div>

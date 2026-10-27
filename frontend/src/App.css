@@ -1,0 +1,20 @@
+.navBar {
+  background-color: rgba(1, 4, 103, 0.512);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.img-logo {
+  object-fit: cover;
+  display: flex;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  width: 10vh;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}

@@ -3,3 +3,12 @@ export type CharactersProps = {
   name: string;
   imageUrl: string;
 };
+
+export type CharactersResponse = {
+  info: {
+    count: number;
+    totalPages: number;
+    nextPage: string | null;
+  };
+  data: CharactersProps[];
+};
